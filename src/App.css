@@ -17,7 +17,7 @@ body{
 
 /* --------------------------------------------------- */
 
-/* Header */
+/* Header ...................................*/
 
 .head{
   background-color: #A6747C ;
@@ -27,6 +27,7 @@ body{
   justify-content: space-around;
   align-items: center;
 }
+
 
 .logo-cont{
   margin-left: 10px;
@@ -40,8 +41,7 @@ body{
 
 .nav{
   display: flex;
-  flex-direction: column;
-  width: 225px;
+  width: 240px;
   justify-content: space-around;
   align-items: center;
 }
@@ -60,4 +60,90 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* home ......................................*/
+.home{
+  width: 250px;
+  height: 230px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-bottom: 2px solid #8C081F ;
+}
+
+.profile-img{
+  margin: 0 auto;
+  width: 75px;
+	height: 75px;
+	box-sizing: border-box;
+	border: 1px white solid;
+	border-radius: 50%;
+	overflow: hidden; 
+	transform: translatey(0px);
+	animation: float 5s ease-in-out infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 10px 0px #8C081F;
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 10px 10px 0px #A6747C;
+		transform: translatey(8px);
+	}
+	100% {
+		box-shadow: 0 5px 10px 0px #8C081F;
+		transform: translatey(0px);
+	}
+}
+
+.name{
+  font-size: 25px;
+}
+
+.btn-cv{
+  width: 100px;
+  height: 25px;
+  /* background-color:#8C081F; */
+  background:linear-gradient(to right,#8C081F 50%,#504143 50% ) no-repeat left / 200%;
+  color: white;
+  border-radius: 15px;
+  border-style: none;
+  cursor: pointer;
+  transition: background-position .3s ease;
+}
+.btn-cv:hover{
+  background-position: right;
+}
+
+.btn-hire{
+  width: 100px;
+  height: 25px;
+  background:linear-gradient(to right,transparent 50%,#8C081F 50% ) no-repeat left / 200%;
+  color: #8C081F;
+  border: 2px solid;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-position .3s ease;
+}
+.btn-hire:hover{
+  background-position: right;
+  color: white;
+}
+
+.networks{
+  display: flex;
+  margin: 0 auto;
+  width: 100px;
+  height: 25px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ico-net{
+  width: 100%;
+  height: 100%;
 }

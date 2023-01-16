@@ -1,15 +1,19 @@
 import React from 'react'
-
+import {BsLinkedin} from "react-icons/bs";
+import {BsGithub} from "react-icons/bs";
+import {SiGmail} from "react-icons/si";
 
 export const Home = () => {
   return (
     <div className='home'>
-       <div className='profile-img'></div>
+       <div className='profile-img' ><img src={ require('../Images/profile.png')}></img></div>
        <div className='name'>DANIELA ACOSTA F.</div>
        <div className='networks'>
-            
+            <div><BsLinkedin className='ico-net'></BsLinkedin></div>
+            <div><BsGithub className='ico-net'></BsGithub></div>
+            <div><SiGmail className='ico-net'></SiGmail></div>
        </div>
-       <button className='btn'></button>
+       <button className='btn-hire'>Hire me !</button>
     </div>
   )
 }

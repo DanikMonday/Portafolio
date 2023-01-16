@@ -11,15 +11,13 @@ export const Header = () => {
             <img className="logo" src={require("../Images/logo6.png")} alt="logo"></img>
         </div>
         <div className='nav'>
-            <div className='nav-up'>
+            
                 <p><AiFillHome/> Home </p>
                 <p><GoPerson/> About </p>
                 <p><RiBook2Fill/> XP </p>
-            </div>
-            <div className='nav-down'>
                 <p><AiFillFolder/>Works</p>
-                <p><AiFillHome/>Contact</p>
-            </div>
+                {/* <p><AiFillHome/>Contact</p> */}
+            
         </div>
     </div>
   )
