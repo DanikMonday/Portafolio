@@ -229,9 +229,15 @@ body{
 .about{
   border: 2px solid #A6747C;
   border-radius: 7px;
-  width: 300px;
-  height: 130px;
+  width: 90%;
+  height: auto;
   margin-top: 15px;
+}
+
+.about p{
+  width: 95%;
+  text-align: justify;
+  padding: 10px;
 }
 
 .btn-cv{
@@ -245,6 +251,7 @@ body{
   cursor: pointer;
   transition: background-position .3s ease;
   margin-top: 10px;
+  margin-bottom: 15px;
 }
 .btn-cv:hover{
   background-position: right;

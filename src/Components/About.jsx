@@ -7,12 +7,12 @@ import { FiFigma } from "react-icons/fi";
 
 
 
-export const About = () => {
+export const About = (props) => {
   return (
     <div>
         <div className='about'>
             <h2>About me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse nam, officiis eiu, olores corrupti </p>
+            <p>{props.resume}</p>
             <button className='btn-cv'><a href=''></a>Download CV</button>
         </div>
         <div className='ico-skills'>

@@ -13,7 +13,12 @@ function App() {
       </header>
       <section>
         <Home></Home>
-        <About></About>
+        <About 
+        resume = "Through learning based on project development and SCRUM methodology, I have made
+        several web applications with real clients oriented both to FRONTEND and BACKEND.
+        Leadership to motivate and organize work teams, resilience to face difficulties of jobs that are
+        under pressure and assertive communication have been essential for the negotiation processes
+        with the different internal, external clients and teammates."></About>
         <Experience></Experience>
       </section>
     </div>
