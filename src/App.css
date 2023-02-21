@@ -282,6 +282,7 @@ body{
 
 .sec-exp{
   display: flex;
+  margin-bottom: 10px;
 }
 
 .ano-exp{
@@ -305,4 +306,8 @@ body{
 
 .ico-grad{
   width: 100%;
+}
+
+.empresa{
+  color: #8C081F;
 }
