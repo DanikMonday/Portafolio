@@ -257,11 +257,7 @@ body{
   width: 300px;
   height: 70px;
   justify-content: space-around;
-  margin-bottom: 20px;
   margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 10px;
-  padding-bottom: 20px;
   border-bottom: 2px solid #8C081F;
 }
 
@@ -270,3 +266,43 @@ body{
   height: 100%;
 }
 
+.cont-ico{
+  width: 12%;
+}
+
+/* Experience---------------------- */
+
+.experience{
+  margin-top: 20px;
+}
+
+.tit-exp h3{
+  width: auto;
+}
+
+.sec-exp{
+  display: flex;
+}
+
+.ano-exp{
+  width: 70%;
+  border-bottom: 2px solid #8C081F;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+}
+
+.cuerpo-exp{
+  text-align: justify;
+  width: 85%;
+}
+
+.cont-ico-grad{
+  width:24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.ico-grad{
+  width: 100%;
+}

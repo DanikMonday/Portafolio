@@ -16,11 +16,11 @@ export const About = () => {
             <button className='btn-cv'>Download CV</button>
         </div>
         <div className='ico-skills'>
-            <div><AiOutlineHtml5 className='ico-sk'></AiOutlineHtml5><span>60%</span></div>
-            <div><SiCss3 className='ico-sk'></SiCss3><span>60%</span></div>
-            <div><TbBrandJavascript className='ico-sk'></TbBrandJavascript><span>60%</span></div>
-            <div><GrReactjs className='ico-sk'></GrReactjs><span>60%</span></div>
-            <div><FiFigma className='ico-sk'></FiFigma><span>60%</span></div>
+            <div className='cont-ico'><AiOutlineHtml5 className='ico-sk'></AiOutlineHtml5></div>
+            <div className='cont-ico'><SiCss3 className='ico-sk'></SiCss3></div>
+            <div className='cont-ico'><TbBrandJavascript className='ico-sk'></TbBrandJavascript></div>
+            <div className='cont-ico'><GrReactjs className='ico-sk'></GrReactjs></div>
+            <div className='cont-ico'><FiFigma className='ico-sk'></FiFigma></div>
         </div>
         <div className='background'>
           <div className='background-logo'></div>
