@@ -282,7 +282,13 @@ body{
 
 .sec-exp{
   display: flex;
-  margin-bottom: 10px;
+ 
+}
+
+.sec-exp button{
+  font-size: 20px;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .ano-exp{
@@ -296,7 +302,12 @@ body{
   text-align: justify;
   width: 85%;
 }
-
+.cargo-exp{
+  text-align: justify;
+  width: 85%;
+  margin-bottom: 5px;
+}
+/* ------------------education----------- */
 .cont-ico-grad{
   width:24px;
   height: 24px;
@@ -309,5 +320,27 @@ body{
 }
 
 .empresa{
+  color: #8C081F;
+}
+
+.ano-edu{
+  width: 70%;
+  padding-bottom: 5px;
+  color: #8C081F;
+}
+
+.cuerpo-edu{
+  border-bottom: 2px solid #8C081F;
+  padding-bottom: 5px;
+  width: 80%;
+}
+
+.btn-xp{
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.btn-xp:hover{
   color: #8C081F;
 }

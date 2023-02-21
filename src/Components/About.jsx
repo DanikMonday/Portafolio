@@ -13,7 +13,7 @@ export const About = () => {
         <div className='about'>
             <h2>About me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse nam, officiis eiu, olores corrupti </p>
-            <button className='btn-cv'>Download CV</button>
+            <button className='btn-cv'><a href=''></a>Download CV</button>
         </div>
         <div className='ico-skills'>
             <div className='cont-ico'><AiOutlineHtml5 className='ico-sk'></AiOutlineHtml5></div>
