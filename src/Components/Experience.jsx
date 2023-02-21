@@ -16,7 +16,7 @@ export const Experience = (props) => {
     
   return (
    
-    <div>
+    <div className='exp-edu-section'>
         
         {type === 1? (<> 
         <div>

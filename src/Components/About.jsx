@@ -13,7 +13,7 @@ export const About = (props) => {
         <div className='about'>
             <h2>About me</h2>
             <p>{props.resume}</p>
-            <button className='btn-cv'><a href=''></a>Download CV</button>
+            <button className='btn-cv'><a href={require('../Docs/cvd-DanielaAcostaForero.pdf')} target="_blank">Download CV</a></button>
         </div>
         <div className='ico-skills'>
             <div className='cont-ico'><AiOutlineHtml5 className='ico-sk'></AiOutlineHtml5></div>

@@ -15,6 +15,7 @@ body{
   text-align: center;
 }
 
+
 /* --------------------------------------------------- */
 
 .background-logo{
@@ -191,6 +192,8 @@ body{
 
 .name{
   font-size: 25px;
+  font-weight: 700;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn-hire{
@@ -212,7 +215,7 @@ body{
 .networks{
   display: flex;
   margin: 0 auto;
-  width: 100px;
+  width: 60%;
   height: 25px;
   justify-content: space-around;
   margin-bottom: 20px;
@@ -255,6 +258,11 @@ body{
 }
 .btn-cv:hover{
   background-position: right;
+}
+
+.btn-cv a{
+  color: white;
+  text-decoration: none;
 }
 
 /* skills.................................... */
@@ -350,4 +358,8 @@ body{
 
 .btn-xp:hover{
   color: #8C081F;
+}
+
+.exp-edu-section{
+  margin-bottom: 20px;
 }
