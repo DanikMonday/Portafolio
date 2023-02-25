@@ -16,7 +16,7 @@ export const About = (props) => {
             <button className='btn-cv'><a href={require('../Docs/cvd-DanielaAcostaForero.pdf')} target="_blank">Download CV</a></button>
         </div>
         <div className='ico-skills'>
-            <div className='cont-ico'><AiOutlineHtml5 className='ico-sk'></AiOutlineHtml5></div>
+            <div className='cont-ico'><AiOutlineHtml5 className='ico-sk ico-html'></AiOutlineHtml5></div>
             <div className='cont-ico'><SiCss3 className='ico-sk'></SiCss3></div>
             <div className='cont-ico'><TbBrandJavascript className='ico-sk'></TbBrandJavascript></div>
             <div className='cont-ico'><GrReactjs className='ico-sk'></GrReactjs></div>

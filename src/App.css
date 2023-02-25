@@ -286,6 +286,14 @@ body{
   margin-top: 10px;
   margin-bottom: 15px;
 }
+
+@media (min-width:720px ) { 
+  .btn-cv{
+    width: 180px;
+    height: 40px;
+  }
+}
+
 .btn-cv:hover{
   background-position: right;
 }
@@ -315,6 +323,13 @@ body{
   width: 12%;
 }
 
+.cont-ico:hover{
+  width: 16%;
+}
+
+/* .ico-html{
+  color: orange;
+} */
 /* Experience---------------------- */
 
 .experience{
