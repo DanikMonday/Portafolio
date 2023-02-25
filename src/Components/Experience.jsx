@@ -21,8 +21,8 @@ export const Experience = (props) => {
         {type === 1? (<> 
         <div>
             <div className='sec-exp'>
-                <button className='btn-xp' onClick={handleXp}>Experience</button>
-                <button className='btn-xp' onClick={handleEdu}>Education</button>
+                <button className='btn-xp' onClick={handleXp}><p>Experience</p></button>
+                <button className='btn-xp' onClick={handleEdu}><p>Education</p></button>
             </div>
             <ExperienceItem  
             empresa = "Simplon.co"
@@ -48,8 +48,8 @@ export const Experience = (props) => {
             ></ExperienceItem> 
         </div></>) : (<>  
         <div className='sec-exp'>
-            <button className='btn-xp' onClick={handleXp}>Experience</button>
-            <button className='btn-xp' onClick={handleEdu}>Education</button>
+            <button className='btn-xp' onClick={handleXp}><p>Experience</p></button>
+            <button className='btn-xp' onClick={handleEdu}><p>Education</p></button>
         </div>
         <EducationItem    
             empresa = "Fundación EDUCAMAS"

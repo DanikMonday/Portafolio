@@ -119,11 +119,17 @@ body{
   align-items: center;
 }
 
+@media (min-width: 720px) { 
+  .head{
+    height: 100px;
+  }
+}
 
 .logo-cont{
   margin-left: 10px;
-  width: 85px;
-  height: 55px;
+  width: 22%;
+  max-height: 70px;
+  max-width: 100px;
 }
 
 .logo{
@@ -132,10 +138,17 @@ body{
 
 .nav{
   display: flex;
-  width: 240px;
+  width: 75%;
   justify-content: space-around;
   align-items: center;
 }
+
+@media (min-width:720px ) { 
+  .nav p{
+    font-size:20px ;
+  }
+}
+
 
 .nav-up{
   width: 100%;
@@ -155,8 +168,9 @@ body{
 
 /* home ......................................*/
 .home{
-  width: 300px;
-  height: 230px;
+  width: 80%;
+  min-width: 300px;
+  min-height: 230px;
   margin: 0 auto;
   margin-top: 10px;
   border-bottom: 2px solid #8C081F ;
@@ -191,9 +205,16 @@ body{
 }
 
 .name{
+  width: auto;
   font-size: 25px;
   font-weight: 700;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 720px) { 
+  .name{
+    font-size: 40px;
+  }
 }
 
 .btn-hire{
@@ -206,6 +227,7 @@ body{
   border-radius: 15px;
   cursor: pointer;
   transition: background-position .3s ease;
+  margin-bottom: 20px;
 }
 .btn-hire:hover{
   background-position: right;
@@ -235,14 +257,22 @@ body{
   width: 90%;
   height: auto;
   margin-top: 15px;
+  max-width: 795px;
 }
 
 .about p{
   width: 95%;
   text-align: justify;
   padding: 10px;
+  max-width: 735px;
 }
 
+@media (min-width:720px ) { 
+  .about p{
+   font-size: 20px;
+  }
+  
+}
 .btn-cv{
   width: 100px;
   height: 25px;
@@ -356,10 +386,17 @@ body{
   font-weight: 700;
 }
 
+@media (min-width: 720px) { 
+  .btn-xp p{
+    font-size: 28px;
+  }
+  
+}
 .btn-xp:hover{
   color: #8C081F;
 }
 
 .exp-edu-section{
   margin-bottom: 20px;
+  margin-top: 20px;
 }
