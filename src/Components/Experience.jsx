@@ -26,7 +26,7 @@ export const Experience = (props) => {
             </div>
             <ExperienceItem  
             empresa = "Simplon.co"
-            cuerpo = "Desarrollo de aplicaciones web con HTML, CSS, JavaScript y React JS."
+            cuerpo = "Web development using HTML, CSS, JavaScript and React JS."
             ano = "September 2022- Present"></ExperienceItem>
                 <ExperienceItem
             empresa = "Fundación EDUCAMAS"

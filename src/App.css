@@ -353,6 +353,9 @@ body{
   margin-bottom: 5px;
 }
 /* ------------------education----------- */
+.sec-exp{
+  max-width: 1000px;
+}
 .cont-ico-grad{
   width:24px;
   height: 24px;
@@ -364,8 +367,18 @@ body{
   width: 100%;
 }
 
+.experience{
+  max-width: 970px;
+}
+
 .empresa{
   color: #8C081F;
+}
+
+@media (min-width: 720px) { 
+  .empresa{
+    font-size: 22px;
+  }
 }
 
 .ano-edu{
@@ -380,6 +393,21 @@ body{
   width: 80%;
 }
 
+@media (min-width:720px) { 
+  .institucion{
+    font-size: 22px;
+  }
+
+  .ano-edu{
+    width: 70%;
+    font-size: 22px;
+  }
+  
+  .cuerpo-edu{
+    font-size: 20px;
+    width: 70%;
+  }
+}
 .btn-xp{
   margin-top: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -399,4 +427,20 @@ body{
 .exp-edu-section{
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+@media (min-width:720px ) { 
+  .ano-exp{
+    font-size: 20px;
+  }
+
+  .cargo-exp p{
+    font-size: 20px;
+    width: 82.5%;
+  }
+
+  .cuerpo-exp{
+    font-size: 20px;
+    width: 70%;
+  }
 }
