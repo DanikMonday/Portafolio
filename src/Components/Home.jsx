@@ -9,9 +9,9 @@ export const Home = () => {
        <div className='profile-img' ><img src={ require('../Images/profile.png')}></img></div>
        <div className='name'>DANIELA ACOSTA F.</div>
        <div className='networks'>
-            <div className='ico-net'><BsLinkedin className='ico-net'></BsLinkedin></div>
-            <div className='ico-net'><BsGithub className='ico-net'></BsGithub></div>
-            <div className='ico-net'><SiGmail className='ico-net'></SiGmail></div>
+            <div className='ico-net'><BsLinkedin className='ico-net ico-link'></BsLinkedin></div>
+            <div className='ico-net'><BsGithub className='ico-net ico-git'></BsGithub></div>
+            <div className='ico-net'><SiGmail className='ico-net ico-mail'></SiGmail></div>
        </div>
        <button className='btn-hire'>Hire me !</button>
     </div>
