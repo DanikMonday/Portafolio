@@ -150,6 +150,12 @@ body{
   }
 }
 
+@media (min-width:1000px ) { 
+  .nav p{
+    font-size:25px ;
+  }
+}
+
 
 .nav-up{
   width: 100%;
@@ -245,6 +251,10 @@ body{
   margin-top: 20px;
 }
 
+.networks a{
+  color: black;
+}
+
 .ico-net{
   width: 100%;
   height: 100%;
@@ -271,6 +281,13 @@ body{
   margin-top: 15px;
   max-width: 795px;
 }
+
+@media (min-width:720px ) { 
+  .about h2{
+    font-size: 30px;
+  }
+}
+
 
 .about p{
   width: 95%;
@@ -466,6 +483,7 @@ body{
   }
   
 }
+
 .btn-xp:hover{
   color: #8C081F;
 }

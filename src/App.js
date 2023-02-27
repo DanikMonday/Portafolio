@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+
 import { Header } from './Components/Header';
 import { Home } from './Components/Home';
 import { About } from './Components/About';
@@ -18,7 +19,8 @@ function App() {
         several web applications with real clients oriented both to FRONTEND and BACKEND.
         Leadership to motivate and organize work teams, resilience to face difficulties of jobs that are
         under pressure and assertive communication have been essential for the negotiation processes
-        with the different internal, external clients and teammates."></About>
+        with the different internal, external clients and teammates." /> 
+       
         <Experience></Experience>
       </section>
     </div>
