@@ -516,13 +516,14 @@ body{
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  gap:50px;
+  gap:40px;
 }
 
 .a-work{
+  
   margin-top: 25px;
   width: 40%;
-  height: 180px;
+  min-height: 150px;
   display: flex;
   text-align: center;
   align-items: center;
