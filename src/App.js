@@ -5,6 +5,8 @@ import { Header } from './Components/Header';
 import { Home } from './Components/Home';
 import { About } from './Components/About';
 import { Experience } from './Components/Experience';
+import { Works } from './Components/Works';
+import { Contact } from './Components/Contact';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         with the different internal, external clients and teammates." /> 
        
         <Experience></Experience>
+        <Works></Works>
+        <Contact></Contact>
       </section>
     </div>
   );

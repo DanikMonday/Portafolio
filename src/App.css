@@ -245,7 +245,7 @@ body{
   display: flex;
   margin: 0 auto;
   width: 60%;
-  height: 25px;
+  height: 35px;
   justify-content: space-around;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -261,7 +261,7 @@ body{
 }
 
 .ico-link:hover{
-  color: rgba(20, 20, 160, 0.995);
+  color: rgba(24, 83, 179, 0.995);
 }
 
 .ico-git:hover{
@@ -507,4 +507,29 @@ body{
     font-size: 20px;
     width: 70%;
   }
+}
+
+/* ---------------------- */
+
+.work-cont{
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.a-work{
+  margin-top: 25px;
+  width: 40%;
+  height: 180px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.a-work a{
+  text-decoration: none;
+  color: rgb(149, 132, 132);
 }

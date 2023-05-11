@@ -3,6 +3,9 @@ import { AiFillHome } from "react-icons/ai";
 import { AiFillFolder} from "react-icons/ai";
 import { GoPerson } from "react-icons/go";
 import { RiBook2Fill } from "react-icons/ri";
+import { Link } from "react-router-dom";
+import { Experience } from './Experience';
+import { Home } from './Home';
 
 export const Header = () => {
   return (
