@@ -512,11 +512,11 @@ body{
 /* ---------------------- */
 
 .work-cont{
-  width: 90%;
+  width: 60%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  gap:20px;
+  gap:50px;
 }
 
 .a-work{
